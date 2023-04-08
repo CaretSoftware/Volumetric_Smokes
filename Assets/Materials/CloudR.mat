@@ -43,21 +43,24 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DarknessThreshold: 0.03
-    - _DensityScale: 0.1
+    - _DarknessThreshold: 0.01
+    - _DensityScale: 0.05
     - _LightAbsorb: -0.06
-    - _LightStepSize: -0.03
+    - _LightStepSize: -0.1
     - _MinAlphaThreshold: 0
     - _NumLightSteps: 10
-    - _NumSteps: 50
+    - _NumSteps: 15
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _StepSize: 0.002
-    - _Transmittance: 1.35
+    - _ShotSize: 0
+    - _StepSize: 0.01
+    - _Transmittance: 2.49
     m_Colors:
     - _CloudColor: {r: 1, g: 1, b: 1, a: 1}
     - _CloudColorShaded: {r: 0.056514766, g: 0.056514766, b: 0.09433961, a: 1}
     - _Offset: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _ShotDirection: {r: 0.66632384, g: 0.09150165, b: -0.74002725, a: 0}
+    - _ShotOrigin: {r: -0.5568326, g: 7.125, b: 1.371944, a: 0}
     - _scale: {r: 0, g: 0, b: -0.02, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1348297791107522873

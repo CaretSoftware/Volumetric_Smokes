@@ -21,7 +21,7 @@ public class Smoke : MonoBehaviour {
 
     [ContextMenu("Explode")] // click on 'hamburger menu' and choose 'Explode' to run method from editor
     public void Explode() {
-        _grenadePosition = transform.position.ToVector3Int();
+        _grenadePosition = transform.position.ToVector3Int() + Vector3Int.up;
         StartCoroutine(FloodFill());
     }
 
